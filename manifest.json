@@ -10,6 +10,10 @@
       "matches": ["https://www.youtube.com/*"],
       "js": ["content.js"],
       "run_at": "document_start"
+    },
+    {
+      "matches": ["https://www.themoviedb.org/movie/*/videos*"],
+      "js": ["tmdb.js"]
     }
   ]
 }
